@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "HighLoginVC.h"
+#import "LowLoginVC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    CGRect screenRect = [UIScreen mainScreen].bounds;
+    
+    HighLoginVC *highLoginVC = [[HighLoginVC alloc] initWithNibName:@"highLoginVC" bundle:nil];
+    LowLoginVC *lowLoginVC = [[LowLoginVC alloc] initWithNibName:@"LowLoginVC" bundle:nil];
+    
+    UINavigationController *highNav = [[UINavigationController alloc] initWithRootViewController:highLoginVC];
+    UINavigationController *lowNav = [[UINavigationController alloc] initWithRootViewController:lowLoginVC];
+    
+    UITabBarController *tabBar = [[UITabBarController alloc] init];
+    [tabBar setViewControllers:[NSMutableArray arrayWithObjects:highNav, lowNav, nil]];
+    tabBar.view.frame = CGRectMake(0, 0, screenRect.size.width, screenRect.size.height);
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = tabBar;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 

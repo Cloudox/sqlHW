@@ -15,6 +15,19 @@
 		B8EC0B3E1BD4C03B0044975D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8EC0B3C1BD4C03B0044975D /* LaunchScreen.storyboard */; };
 		B8EC0B491BD4C03B0044975D /* sqlHMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EC0B481BD4C03B0044975D /* sqlHMTests.m */; };
 		B8EC0B541BD4C03B0044975D /* sqlHMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EC0B531BD4C03B0044975D /* sqlHMUITests.m */; };
+		B8EC0B701BD4C9520044975D /* LowLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EC0B6E1BD4C9520044975D /* LowLoginVC.m */; settings = {ASSET_TAGS = (); }; };
+		B8EC0B711BD4C9520044975D /* LowLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8EC0B6F1BD4C9520044975D /* LowLoginVC.xib */; settings = {ASSET_TAGS = (); }; };
+		B8EC0B7A1BD4C9A80044975D /* HighLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EC0B781BD4C9A80044975D /* HighLoginVC.m */; settings = {ASSET_TAGS = (); }; };
+		B8EC0B7B1BD4C9A80044975D /* HighLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8EC0B791BD4C9A80044975D /* HighLoginVC.xib */; settings = {ASSET_TAGS = (); }; };
+		B8EC0B7F1BD4CD460044975D /* HighDataVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EC0B7D1BD4CD460044975D /* HighDataVC.m */; settings = {ASSET_TAGS = (); }; };
+		B8EC0B801BD4CD460044975D /* HighDataVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8EC0B7E1BD4CD460044975D /* HighDataVC.xib */; settings = {ASSET_TAGS = (); }; };
+		B8EC0B841BD4CD600044975D /* LowDataVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EC0B821BD4CD600044975D /* LowDataVC.m */; settings = {ASSET_TAGS = (); }; };
+		B8EC0B851BD4CD600044975D /* LowDataVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8EC0B831BD4CD600044975D /* LowDataVC.xib */; settings = {ASSET_TAGS = (); }; };
+		B8EC0B891BD4D01E0044975D /* HighOperateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EC0B871BD4D01E0044975D /* HighOperateVC.m */; settings = {ASSET_TAGS = (); }; };
+		B8EC0B8A1BD4D01E0044975D /* HighOperateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8EC0B881BD4D01E0044975D /* HighOperateVC.xib */; settings = {ASSET_TAGS = (); }; };
+		B8EC0B8E1BD4D0340044975D /* LowOperateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EC0B8C1BD4D0340044975D /* LowOperateVC.m */; settings = {ASSET_TAGS = (); }; };
+		B8EC0B8F1BD4D0340044975D /* LowOperateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8EC0B8D1BD4D0340044975D /* LowOperateVC.xib */; settings = {ASSET_TAGS = (); }; };
+		DEF1236242815E58ECC84453 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6E4F8566B3A9A5EC9E87D4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FF4A27C028DC266DAA06CE0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B8EC0B2B1BD4C03B0044975D /* sqlHM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sqlHM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EC0B2F1BD4C03B0044975D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8EC0B311BD4C03B0044975D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +65,27 @@
 		B8EC0B4F1BD4C03B0044975D /* sqlHMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sqlHMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EC0B531BD4C03B0044975D /* sqlHMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sqlHMUITests.m; sourceTree = "<group>"; };
 		B8EC0B551BD4C03B0044975D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8EC0B6D1BD4C9520044975D /* LowLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowLoginVC.h; sourceTree = "<group>"; };
+		B8EC0B6E1BD4C9520044975D /* LowLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowLoginVC.m; sourceTree = "<group>"; };
+		B8EC0B6F1BD4C9520044975D /* LowLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LowLoginVC.xib; sourceTree = "<group>"; };
+		B8EC0B771BD4C9A80044975D /* HighLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighLoginVC.h; sourceTree = "<group>"; };
+		B8EC0B781BD4C9A80044975D /* HighLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighLoginVC.m; sourceTree = "<group>"; };
+		B8EC0B791BD4C9A80044975D /* HighLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighLoginVC.xib; sourceTree = "<group>"; };
+		B8EC0B7C1BD4CD460044975D /* HighDataVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighDataVC.h; sourceTree = "<group>"; };
+		B8EC0B7D1BD4CD460044975D /* HighDataVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighDataVC.m; sourceTree = "<group>"; };
+		B8EC0B7E1BD4CD460044975D /* HighDataVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighDataVC.xib; sourceTree = "<group>"; };
+		B8EC0B811BD4CD600044975D /* LowDataVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowDataVC.h; sourceTree = "<group>"; };
+		B8EC0B821BD4CD600044975D /* LowDataVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowDataVC.m; sourceTree = "<group>"; };
+		B8EC0B831BD4CD600044975D /* LowDataVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LowDataVC.xib; sourceTree = "<group>"; };
+		B8EC0B861BD4D01E0044975D /* HighOperateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighOperateVC.h; sourceTree = "<group>"; };
+		B8EC0B871BD4D01E0044975D /* HighOperateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighOperateVC.m; sourceTree = "<group>"; };
+		B8EC0B881BD4D01E0044975D /* HighOperateVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighOperateVC.xib; sourceTree = "<group>"; };
+		B8EC0B8B1BD4D0340044975D /* LowOperateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowOperateVC.h; sourceTree = "<group>"; };
+		B8EC0B8C1BD4D0340044975D /* LowOperateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowOperateVC.m; sourceTree = "<group>"; };
+		B8EC0B8D1BD4D0340044975D /* LowOperateVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LowOperateVC.xib; sourceTree = "<group>"; };
+		B8EC0BB91BD624480044975D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DA6E4F8566B3A9A5EC9E87D4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06C6A99DB83FF288498A9DA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF1236242815E58ECC84453 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +114,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26CE882D6175B58F57EDD16E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA6E4F8566B3A9A5EC9E87D4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B8EC0B221BD4C03B0044975D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +129,8 @@
 				B8EC0B471BD4C03B0044975D /* sqlHMTests */,
 				B8EC0B521BD4C03B0044975D /* sqlHMUITests */,
 				B8EC0B2C1BD4C03B0044975D /* Products */,
+				CEC33F00A1A9557019A55811 /* Pods */,
+				26CE882D6175B58F57EDD16E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,10 +151,13 @@
 				B8EC0B321BD4C03B0044975D /* AppDelegate.m */,
 				B8EC0B341BD4C03B0044975D /* ViewController.h */,
 				B8EC0B351BD4C03B0044975D /* ViewController.m */,
+				B8EC0B6B1BD4C9250044975D /* High */,
+				B8EC0B6C1BD4C9390044975D /* Low */,
 				B8EC0B371BD4C03B0044975D /* Main.storyboard */,
 				B8EC0B3A1BD4C03B0044975D /* Assets.xcassets */,
 				B8EC0B3C1BD4C03B0044975D /* LaunchScreen.storyboard */,
 				B8EC0B3F1BD4C03B0044975D /* Info.plist */,
+				B8EC0BB91BD624480044975D /* PrefixHeader.pch */,
 				B8EC0B2E1BD4C03B0044975D /* Supporting Files */,
 			);
 			path = sqlHM;
@@ -140,6 +189,47 @@
 			path = sqlHMUITests;
 			sourceTree = "<group>";
 		};
+		B8EC0B6B1BD4C9250044975D /* High */ = {
+			isa = PBXGroup;
+			children = (
+				B8EC0B771BD4C9A80044975D /* HighLoginVC.h */,
+				B8EC0B781BD4C9A80044975D /* HighLoginVC.m */,
+				B8EC0B791BD4C9A80044975D /* HighLoginVC.xib */,
+				B8EC0B7C1BD4CD460044975D /* HighDataVC.h */,
+				B8EC0B7D1BD4CD460044975D /* HighDataVC.m */,
+				B8EC0B7E1BD4CD460044975D /* HighDataVC.xib */,
+				B8EC0B861BD4D01E0044975D /* HighOperateVC.h */,
+				B8EC0B871BD4D01E0044975D /* HighOperateVC.m */,
+				B8EC0B881BD4D01E0044975D /* HighOperateVC.xib */,
+			);
+			name = High;
+			sourceTree = "<group>";
+		};
+		B8EC0B6C1BD4C9390044975D /* Low */ = {
+			isa = PBXGroup;
+			children = (
+				B8EC0B6D1BD4C9520044975D /* LowLoginVC.h */,
+				B8EC0B6E1BD4C9520044975D /* LowLoginVC.m */,
+				B8EC0B6F1BD4C9520044975D /* LowLoginVC.xib */,
+				B8EC0B811BD4CD600044975D /* LowDataVC.h */,
+				B8EC0B821BD4CD600044975D /* LowDataVC.m */,
+				B8EC0B831BD4CD600044975D /* LowDataVC.xib */,
+				B8EC0B8B1BD4D0340044975D /* LowOperateVC.h */,
+				B8EC0B8C1BD4D0340044975D /* LowOperateVC.m */,
+				B8EC0B8D1BD4D0340044975D /* LowOperateVC.xib */,
+			);
+			name = Low;
+			sourceTree = "<group>";
+		};
+		CEC33F00A1A9557019A55811 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FF4A27C028DC266DAA06CE0 /* Pods.debug.xcconfig */,
+				F06C6A99DB83FF288498A9DA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8EC0B581BD4C03B0044975D /* Build configuration list for PBXNativeTarget "sqlHM" */;
 			buildPhases = (
+				4034F80B9D7704EF1D2DEF25 /* Check Pods Manifest.lock */,
 				B8EC0B271BD4C03B0044975D /* Sources */,
 				B8EC0B281BD4C03B0044975D /* Frameworks */,
 				B8EC0B291BD4C03B0044975D /* Resources */,
+				E431FF6A68BA564ED9821284 /* Embed Pods Frameworks */,
+				396D70891483DA975F0708F3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,8 +336,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8EC0B851BD4CD600044975D /* LowDataVC.xib in Resources */,
+				B8EC0B801BD4CD460044975D /* HighDataVC.xib in Resources */,
+				B8EC0B7B1BD4C9A80044975D /* HighLoginVC.xib in Resources */,
+				B8EC0B8F1BD4D0340044975D /* LowOperateVC.xib in Resources */,
+				B8EC0B8A1BD4D01E0044975D /* HighOperateVC.xib in Resources */,
 				B8EC0B3E1BD4C03B0044975D /* LaunchScreen.storyboard in Resources */,
 				B8EC0B3B1BD4C03B0044975D /* Assets.xcassets in Resources */,
+				B8EC0B711BD4C9520044975D /* LowLoginVC.xib in Resources */,
 				B8EC0B391BD4C03B0044975D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,13 +364,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		396D70891483DA975F0708F3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4034F80B9D7704EF1D2DEF25 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E431FF6A68BA564ED9821284 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B8EC0B271BD4C03B0044975D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B8EC0B361BD4C03B0044975D /* ViewController.m in Sources */,
+				B8EC0B8E1BD4D0340044975D /* LowOperateVC.m in Sources */,
+				B8EC0B7A1BD4C9A80044975D /* HighLoginVC.m in Sources */,
 				B8EC0B331BD4C03B0044975D /* AppDelegate.m in Sources */,
+				B8EC0B891BD4D01E0044975D /* HighOperateVC.m in Sources */,
+				B8EC0B841BD4CD600044975D /* LowDataVC.m in Sources */,
+				B8EC0B701BD4C9520044975D /* LowLoginVC.m in Sources */,
+				B8EC0B7F1BD4CD460044975D /* HighDataVC.m in Sources */,
 				B8EC0B301BD4C03B0044975D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,8 +564,11 @@
 		};
 		B8EC0B591BD4C03B0044975D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF4A27C028DC266DAA06CE0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/sqlHM/PrefixHeader.pch";
 				INFOPLIST_FILE = sqlHM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloudox.sqlHM;
@@ -422,8 +578,11 @@
 		};
 		B8EC0B5A1BD4C03B0044975D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F06C6A99DB83FF288498A9DA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/sqlHM/PrefixHeader.pch";
 				INFOPLIST_FILE = sqlHM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloudox.sqlHM;
@@ -498,6 +657,7 @@
 				B8EC0B5A1BD4C03B0044975D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8EC0B5B1BD4C03B0044975D /* Build configuration list for PBXNativeTarget "sqlHMTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +666,7 @@
 				B8EC0B5D1BD4C03B0044975D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8EC0B5E1BD4C03B0044975D /* Build configuration list for PBXNativeTarget "sqlHMUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +675,7 @@
 				B8EC0B601BD4C03B0044975D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
